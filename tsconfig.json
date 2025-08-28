@@ -4,9 +4,9 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": false,         // ✅ relax strict rules
-    "noEmit": false,         // ✅ allow Next.js to emit build files
-    "noEmitOnError": false,  // ✅ ignore TS errors during build
+    "strict": false,         // relax strict rules
+    "noEmit": false,         // allow emitting build files
+    "noEmitOnError": false,  // ignore TS errors during build
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "bundler",
@@ -15,9 +15,7 @@
     "jsx": "preserve",
     "incremental": true,
     "plugins": [
-      {
-        "name": "next"
-      }
+      { "name": "next" }
     ],
     "paths": {
       "@/*": ["./src/*"]
